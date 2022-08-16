@@ -1,0 +1,173 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px black;
+}
+
+body,
+footer {
+    background-color: #fcf6f5ff;
+    font-size: medium;
+}
+
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 20px;
+}
+
+@font-face {
+    font-family: "Kamikaze";
+    src: url(fonts/Kamikaze3DGradient.ttf);
+}
+
+/*  left container  */
+
+#leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 600px;
+    gap: 5px;
+    flex: 1 0 auto;
+}
+
+.hero,
+.popular {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: #89abe3ff;
+    flex: 1 1 200px;
+}
+
+.hero {
+    background-image: url(images/heroBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 0;
+    font-size: 500%;
+    flex: 1 0 400px;
+}
+
+.hero #title {
+    align-self: center;
+    text-align: center;
+    color: #fcf6f5ff;
+    font-weight: bolder;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+}
+
+.button button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+
+.popular a {
+    margin-bottom: 20px;
+}
+
+/*  right container */
+
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 300%;
+    flex: 1 0 50%;
+}
+
+#rightContainer .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #89abe3ff;
+    color: #fcf6f5ff;
+    text-decoration: none;
+    font-family: "Kamikaze";
+}
+
+#rightContainer .category:hover{
+    color: #fdd805;
+}
+
+#rightContainer .category:active{
+    color: #05fd2e;
+}
+
+.category.manga {
+    background-image: url(images/manga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.category.manga:hover{
+    background-image: url(images/manga.jpg);
+    background-size: 150% auto;
+    background-position: center;
+}
+
+.category.manhua {
+    background-image: url(images/manhua.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.category.manhua:hover {
+    background-image: url(images/manhua.jpg);
+    background-size: 150% auto;
+    background-position: center;
+}
+
+.category.manhwa {
+    background-image: url(images/manhwa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.category.manhwa:hover {
+    background-image: url(images/manhwa.jpg);
+    background-size: 150% auto;
+    background-position: center;
+}
+
+.category.hen {
+    background-image: url(images/hen.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.category.hen:hover {
+    background-image: url(images/hen.webp);
+    background-size: 150% auto;
+    background-position: center;
+}
+
+/*  footer  */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    text-shadow: none;
+    flex: auto;
+}
