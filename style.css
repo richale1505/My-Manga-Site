@@ -49,6 +49,7 @@ footer {
 }
 
 .hero {
+    border-top-left-radius: 20px;
     background-image: url(images/heroBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,6 +77,10 @@ footer {
     width: 100px;
     margin-bottom: 20px;
     text-shadow: none;
+}
+
+.popular {
+    border-bottom-left-radius: 20px;
 }
 
 .popular a {
@@ -117,6 +122,7 @@ footer {
     background-image: url(images/manga.jpg);
     background-size: cover;
     background-position: center;
+    border-top-right-radius: 20px;
 }
 
 .category.manga:hover{
@@ -153,6 +159,7 @@ footer {
     background-image: url(images/hen.webp);
     background-size: cover;
     background-position: center;
+    border-bottom-right-radius: 20px;
 }
 
 .category.hen:hover {
