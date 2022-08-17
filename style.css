@@ -33,7 +33,7 @@ footer {
     align-self: center;
     width: 600px;
     gap: 5px;
-    flex: 1 0 auto;
+    flex: 1 1 450px;
 }
 
 .hero,
@@ -45,7 +45,6 @@ footer {
     justify-content: flex-end;
     gap: 10px;
     background-color: #89abe3ff;
-    flex: 1 1 200px;
 }
 
 .hero {
@@ -81,6 +80,7 @@ footer {
 
 .popular {
     border-bottom-left-radius: 20px;
+    flex: 1 0 200px;
 }
 
 .popular a {
@@ -96,7 +96,7 @@ footer {
     flex-wrap: wrap;
     gap: 5px;
     font-size: 300%;
-    flex: 1 0 50%;
+    flex: 1 0 180px;
 }
 
 #rightContainer .category {
